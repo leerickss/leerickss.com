@@ -20,8 +20,8 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <!-- this is removed -->
-            <a href="{{ site.baseurl }}/" class="site-logo"><img src="{{ site.baseurl }}{{ site.logo}}" alt="{{ site.title }}" /></a>
+            <!-- logo image at the top left -->
+            <a href="{{ site.baseurl }}/" class="site-logo"><img class="circular" width="128" style="display:block" align="left" src="{{ site.baseurl }}{{ site.logo}}" alt="{{ site.title }}" /></a>
 
             <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -46,7 +46,7 @@
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
             <div class="center">
-            <img class ="circular" width=128 style="display:block" align="middle" src= {{site.avatar}} /></a>
+            <img class ="circular" width=128 style="display:block" align="middle" src={{site.avatar}} /></a>
             <h1 class="title">Hi, I'm Ricky</h1>
             </div>
             {{ content }}
