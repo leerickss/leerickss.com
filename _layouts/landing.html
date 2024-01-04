@@ -20,7 +20,7 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <!-- logo image at the top left -->
+            <!-- logo image  -->
             <a href="{{ site.baseurl }}/" class="site-logo"><img src="{{ site.baseurl }}{{ site.logo}}" alt="{{ site.title }}" /></a>
 
             <div class="site-info">
@@ -28,17 +28,13 @@
               <p class="site-description">{{ site.description }}</p> 
             </div>
 
-            <!-- manage pages here -->
+            <!-- pages -->
             <nav>
               <a href="{{ site.baseurl }}/">Home</a>
               <a href="{{ site.baseurl }}/about">About</a>
               <!-- <a href="{{ site.baseurl }}/">Reading</a> -->
               <a href="{{ site.baseurl }}/writings">Writings</a>
-
-              <!-- <a href="{{ site.baseurl }}/getting-started">Getting Started</a> -->
-              <!-- <a href="{{ site.baseurl }}/search">Search</a> -->
             </nav>
-
           </header>
         </div>
       </div>
@@ -46,6 +42,7 @@
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
             <div class="center" style="text-align: center">
+              <!-- avatar image -->
               <img width="128" style="display: block; margin: 0 auto;" src="{{ site.avatar }}" />
             </div>
             {{ content }}
