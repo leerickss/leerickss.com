@@ -58,6 +58,11 @@ enforce_ssl: http://leerickss.github.io
 # then add in the baseurl here, like this: "/repository-name"
 # baseurl: "/reverie"
 
+# right now I'm hosting a page with Vercel with domain leerickss.xyz
+# use the project repo above if I switch to static page hosted on the github pages project repo
+resume_url: https://leerickss.xyz
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
